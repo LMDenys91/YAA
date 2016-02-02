@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'ZAA' target in the 'ZAA' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
+#endif
