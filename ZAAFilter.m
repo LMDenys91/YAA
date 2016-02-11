@@ -36,13 +36,15 @@
 
 - (IBAction)compressImage:(id)sender
 {
+    
+    ViewerController *new2DViewer = [self duplicateCurrent2DViewerWindow];
     float *fImage; // Grey Image
     int compFactor = self.slider.intValue; // Compression factor
     
-    NSArray *pixList = [viewerController pixList: 0];
+    NSArray *pixList = [new2DViewer pixList: 0];
     int amountOfImages = [pixList count];
     int imagesPerSample = amountOfImages / compFactor;
-    int curSlice = [[viewerController imageView] curImage];
+    int curSlice = [[new2DViewer imageView] curImage];
     DCMPix *curPix = [pixList objectAtIndex: curSlice];
     
     // Number of Pixels
@@ -79,7 +81,7 @@
     // if you've changed pixel values,
     // don't forget to update the display
     
-    [viewerController needsDisplayUpdate];
+    [new2DViewer needsDisplayUpdate];
     
 }
 
