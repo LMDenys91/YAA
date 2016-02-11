@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D5B49AC048680CD000E48DA"
-               BuildableName = "ZAA.osirixplugin"
-               BlueprintName = "ZAA"
-               ReferencedContainer = "container:ZAA.xcodeproj">
+               BuildableName = "YAA.osirixplugin"
+               BlueprintName = "YAA"
+               ReferencedContainer = "container:YAA.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,20 +44,21 @@
       allowLocationSimulation = "YES">
       <PathRunnable
          runnableDebuggingMode = "0"
+         BundleIdentifier = "com.horosproject.horos"
          FilePath = "/Users/ilse/Documents/Cornell/DevLab/PFARA/horos/build/Development/Horos.app">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D5B49AC048680CD000E48DA"
-            BuildableName = "ZAA.osirixplugin"
-            BlueprintName = "ZAA"
-            ReferencedContainer = "container:ZAA.xcodeproj">
+            BuildableName = "YAA.osirixplugin"
+            BlueprintName = "YAA"
+            ReferencedContainer = "container:YAA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "--LoadPlugin /Users/ilse/Documents/Cornell/DevLab/Osirix-plugins/osirixplugins/_help/ZAA/ZAA.xcodeproj"
+            argument = "--LoadPlugin /Users/ilse/Documents/Cornell/DevLab/Osirix-plugins/osirixplugins/_help/YAA/YAA.xcodeproj"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
@@ -74,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D5B49AC048680CD000E48DA"
-            BuildableName = "ZAA.osirixplugin"
-            BlueprintName = "ZAA"
-            ReferencedContainer = "container:ZAA.xcodeproj">
+            BuildableName = "YAA.osirixplugin"
+            BlueprintName = "YAA"
+            ReferencedContainer = "container:YAA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -1,13 +1,13 @@
 //
-//  ZAAFilter.m
-//  ZAA
+//  YAAFilter.m
+//  YAA
 //
 //  Copyright (c) 2016 Lucas. All rights reserved.
 //
 
-#import "ZAAFilter.h"
+#import "YAAFilter.h"
 
-@implementation ZAAFilter
+@implementation YAAFilter
 
 
 - (void) initPlugin

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DABD6134B7834BE42239736D657C30C84F94A5FA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "900532B7E901BCF12B84E1C26A8435CC37B8DBFA" : 0,
+    "DABD6134B7834BE42239736D657C30C84F94A5FA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "40BF6F41-5564-4BD5-B4DC-A14CE41C436E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "900532B7E901BCF12B84E1C26A8435CC37B8DBFA" : "..",
+    "DABD6134B7834BE42239736D657C30C84F94A5FA" : "ZAA\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YAA",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YAA.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pixmeo\/osirixplugins.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "900532B7E901BCF12B84E1C26A8435CC37B8DBFA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:LMDenys91\/ZAA.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DABD6134B7834BE42239736D657C30C84F94A5FA"
+    }
+  ]
+}

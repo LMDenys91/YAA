@@ -1,6 +1,6 @@
 //
-//  ZAAFilter.h
-//  ZAA
+//  YAAFilter.h
+//  YAA
 //
 //  Copyright (c) 2016 Lucas. All rights reserved.
 //
@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <OsiriXAPI/PluginFilter.h>
 
-@interface ZAAFilter : PluginFilter {
+@interface YAAFilter : PluginFilter {
  IBOutlet NSWindow *window;
 }
 
