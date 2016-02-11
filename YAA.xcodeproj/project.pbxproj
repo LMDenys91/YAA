@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		238422C41C5FF380009AD447 /* Slider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 238422C31C5FF380009AD447 /* Slider.xib */; };
+		23C8D0161C6D336400073B7B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49B7048680CD000E48DA /* Info.plist */; };
 		8420023212E829A200E1E9CE /* OsiriXAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8420023112E829A200E1E9CE /* OsiriXAPI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8D5B49AE048680CD000E48DA /* YAA_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF630370AF2F00C91783 /* YAA_Prefix.pch */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
@@ -194,6 +195,7 @@
 			files = (
 				238422C41C5FF380009AD447 /* Slider.xib in Resources */,
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				23C8D0161C6D336400073B7B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

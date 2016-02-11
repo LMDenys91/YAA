@@ -18,13 +18,13 @@
 	<string>1.0</string>
 	<key>MenuTitles</key>
 	<array>
-		<string>ZAA</string>
+		<string>YAA</string>
 	</array>
 	<key>NSPrincipalClass</key>
 	<string>YAAFilter</string>
 	<key>allowToolbarIcon</key>
 	<string>YES</string>
 	<key>pluginType</key>
-	<string>imageFilter</string>
+	<string>Others</string>
 </dict>
 </plist>
