@@ -22,7 +22,7 @@
     self.originalPix = [[pixList objectAtIndex: curSlice] copy];
     [NSBundle loadNibNamed:@"Slider" owner:self];
     [NSApp beginSheet: window modalForWindow:[NSApp keyWindow] modalDelegate:self didEndSelector:nil contextInfo:nil];
-    self.slider.maxValue = 32;
+    self.slider.maxValue = 256;
     
     return 0;
 }
