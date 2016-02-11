@@ -29,7 +29,7 @@
 
 - (IBAction)sliderValueChanged:(id)sender {
     self.compressionFactor.stringValue = [NSString stringWithFormat:@"%i", self.slider.intValue];
-    [self restoreDCM:self.originalPix];
+   // [self restoreDCM:self.originalPix];
     [viewerController needsDisplayUpdate];
 }
 
@@ -85,21 +85,21 @@
     
 }
 
-- (void) restoreDCM: (DCMPix*)originalDCM
-{
-    NSArray *pixList = [viewerController pixList: 0];
-    int curSlice = [[viewerController imageView] curImage];
-    DCMPix *curPix = [pixList objectAtIndex: curSlice];
-    int curPos = [curPix pheight] * [curPix pwidth];
-    float *fImage = [curPix fImage];
-    float *originalImage = [originalDCM fImage];
-    
-    while ( curPos--> 0 )
-    {
-        fImage[curPos] = originalImage[curPos];
-    }
-    [viewerController needsDisplayUpdate];
-}
+//- (void) restoreDCM: (DCMPix*)originalDCM
+//{
+//    NSArray *pixList = [viewerController pixList: 0];
+//    int curSlice = [[viewerController imageView] curImage];
+//    DCMPix *curPix = [pixList objectAtIndex: curSlice];
+//    int curPos = [curPix pheight] * [curPix pwidth];
+//    float *fImage = [curPix fImage];
+//    float *originalImage = [originalDCM fImage];
+//    
+//    while ( curPos--> 0 )
+//    {
+//        fImage[curPos] = originalImage[curPos];
+//    }
+//    [viewerController needsDisplayUpdate];
+//}
 
 - (IBAction) closeDialog:(id)sender
 {
@@ -109,7 +109,7 @@
     if( [sender tag] == 1)   // User clicks Close Button
     {
         // Restore the original image.
-        [self restoreDCM:self.originalPix];
+       // [self restoreDCM:self.originalPix];
         
     }
 }
